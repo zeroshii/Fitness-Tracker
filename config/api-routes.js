@@ -9,7 +9,8 @@ module.exports = function(app){
     // create new workout
     app.post('/api/workouts', async function(req, res){
         const result = await workout.create({})
-        res.send(result._id)
+        console.log('POST API workouts', result)
+        res.send(result)
     })
     // add exercises to the new workout
     app.put('/api/workouts/:id', async function(req, res) {
