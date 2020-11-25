@@ -5,6 +5,8 @@
 
 This is a workout tracker application that allows the user to create and track daily workouts. Multiple exercises can be logged on a given day by name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, distance traveled is tracked.
 
+The deployed application can be seen here: [Fitness Tracker](https://infinite-savannah-30376.herokuapp.com/)
+
 ## Technologies
 
 * MongoDB Atlas database
